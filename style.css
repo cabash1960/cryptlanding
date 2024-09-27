@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #1a1a1a;
+    background-color: #fffaee;
+
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.4rem;
+    margin-bottom: 4.8rem;
+    box-shadow: 2.4rem 0 0.5rem 0 rgba(0, 0, 0, 0.075);
+
+}
+
+
+.main-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    list-style: none;
+    font-weight: 600;
+
+
+}
+
+
+
+.nav-links:visited,
+.nav-links:link {
+    display: flex;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1.4rem;
+    align-items: center;
+    gap: 1.2rem;
+    text-align: center;
+
+    transition: all 0.3s;
+
+}
+
+.nav-links:hover,
+.nav-links:active {
+    color: #ffcc23;
+
+}
+
+
+
+.dot {
+
+    color: #ffcc23;
+    font-size: 1.6rem;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.logo_text span {
+    font-weight: 700;
+    color: #6248d7;
+}
+
+.logo-img {
+    width: 3.2rem;
+}
+
+
+/******* HERO *******/
+
+.section-Hero {
+    padding: 4.8rem 0 9.6rem 0;
+    margin-bottom: 9.6rem;
+}
+
+.container {
+    max-width: 130rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 6.4rem;
+
+}
+
+h1 {
+    font-size: 3.6rem;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+
+.hero-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.x {
+    margin-bottom: 4.8rem;
+}
+
+.get-started:link,
+.get-started:visited {
+    font-size: 1.4rem;
+    color: #fffaee;
+    background-color: #ffcc23;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+
+    transition: all 0.3s ease;
+}
+
+
+.get-started {
+    color: #ffcc23;
+    background-color: #fffbf3;
+    box-shadow: 2.4rem 2.4 1rem 0 rgba(0, 0, 0, 0.075);
+    transition: transform .4s transformY(-15px);
+
+
+}
+
+.get-started:hover {
+    color: #0c0c0c;
+    background-color: #6248d7;
+    transform: transformY(0, -15px);
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+
+
+
+}
+
+.nav-info {
+    background-color: #dce4c1e4;
+    padding: 2.4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.122);
+    border-radius: 0.2rem;
+
+    transition: all 0.3s;
+
+}
+
+.nav-info p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+
+}
+
+.nav-info:hover {
+    transform: scaleY(2, 3);
+}
+
+.check:link,
+.check:visited {
+
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #ffcc23;
+
+    transition: all 0.3s;
+
+}
+
+.check:hover,
+.check:active {
+    text-decoration: underline;
+}
+
+
+/* *******statistics******** */
+
+.statistics {
+    margin-bottom: 9.6rem;
+}
+
+.static-box {
+
+    margin-bottom: 2.4rem;
+}
+
+.static-text {
+    max-width: 70%;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+
+
+.static-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 2.4rem;
+}
+
+
+.static-icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.icons {
+    width: 6rem;
+    height: auto;
+    background-color: #ffcc23;
+    padding: 1rem;
+    border-radius: 5rem;
+
+}
+
+.static-icon-text p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+
+/* ********FEAUTURE********** */
+
+.feature-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.feature-img {
+    width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0d352ee;
+    padding: 12.8rem 9.6rem;
+    gap: 1.6rem;
+}
+
+.head {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.feature-text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+/*
+
+---01   TYPOGRAPHY
+
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+
+- Font weight:
+Default: 400
+medium: 500
+Semi-bold: 600
+Bold: 700
+
+
+- line height:
+Default: 1
+small: 1.05
+medium: 1.2
+paragraph default: 1.6
+
+
+
+-letter spacing
+-0.5
+0.75
+
+----- 02 COLORS
+
+-Primary : 
+-Tints:
+
+
+-Shades:
+
+
+- Accents: 
+- Greys: 
+
+---- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
+---- 06 BORDER-RADIUS
+
+Default: 9px
+medium: 11px
+
+---- 07 WHITESPACE
+
+
+
+
+*/

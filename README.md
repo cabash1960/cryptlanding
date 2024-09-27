@@ -1,1 +1,10 @@
 # cryptlanding
+
+
+#CCD5AE
+#E9EDC9
+#FEFAE0
+#FAEDCD
+#D4A373
+
+
